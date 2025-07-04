@@ -3,6 +3,7 @@ import { Inconsolata } from "next/font/google";
 const inconsolata = Inconsolata({
   weight: "700",
   display: "swap",
+  subsets: ["latin"],
 });
 
 export default function Header() {

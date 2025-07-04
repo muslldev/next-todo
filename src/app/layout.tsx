@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 
 const inter = Inter({
   weight: ["400"],
+  subsets: ["latin"],
   display: "swap",
 });
 
